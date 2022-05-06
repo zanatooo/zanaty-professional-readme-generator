@@ -1,0 +1,25 @@
+{
+  "name": "zanaty-professional-readme-generator",
+  "version": "1.0.0",
+  "description": "Node js backend application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanatooo/zanaty-professional-readme-generator.git"
+  },
+  "keywords": [
+    "iquirer"
+  ],
+  "author": "zanaty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanatooo/zanaty-professional-readme-generator/issues"
+  },
+  "homepage": "https://github.com/zanatooo/zanaty-professional-readme-generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
