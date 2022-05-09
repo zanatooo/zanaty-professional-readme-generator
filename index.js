@@ -24,7 +24,7 @@ function start () {
         },
         {
             type: "list",
-            name:"lisence",
+            name:"license",
             message:"project lisence",
             choices: ['MIT','ISC','APPACHE2.0','GPL','NONE']
         },
@@ -51,33 +51,36 @@ function start () {
    
     ]).then (function(response){
     let readmeContent=`
-    # Title:${response.title}
-    ## Description: ${response.description}
-    ### Table of Content:
-    * [license](license)
-    * [instatllation](#installation)
-    * [usage](#usage)
-    * [contribution](#contribution)
-    * [testing](#testing)
-    * [github](#github)
-    * [email](#email)
+# Title:${response.title}
+## Description: ${response.description}
+### Table of Content:
+* [license](#license)
+* [instatllation](#installation)
+* [usage](#usage)
+* [contribution](#contribution)
+* [testing](#testing)
+* [github](#github)
+* [email](#email)
 
-    #### License:
-    ![GitHub license](https://img.shields.io/badge/license-${response.license}-blue.svg)
+#### License:
+![GitHub license](https://img.shields.io/badge/license-${response.license}-blue.svg)
 
-    #### Installation:
-    ${response.installation}
+#### Installation:
+${response.installation}
 
-    #### Usage:
-    ${response.usage}
+#### Usage:
+${response.usage}
 
-    #### Conribution:
-    ${response.contribution}
+#### Conribution:
+${response.contribution}
 
-    #### Github:
-    [github profile](https://github.com/${response.github})
+#### Github:
+[github profile](https://github.com/${response.github})
 
-    `
+#### Email
+<${response.email}
+
+`
     fs.writeFileSync('OUTPUT.md',readmeContent,function(error){
         if(error)throw error
     })
