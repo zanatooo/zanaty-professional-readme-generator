@@ -1,6 +1,6 @@
 
-# Title:
-## Description: 
+# Title:readme file generator
+## Description: this project is an app to generate a professional readme file
 ### Table of Content:
 * [license](#license)
 * [instatllation](#installation)
@@ -14,17 +14,17 @@
 ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
 #### Installation:
-
+follow these steps to install the app
 
 #### Usage:
-
+These are the requiremnets
 
 #### Conribution:
-his
+Mohammed
 
 #### Github:
-[github profile](https://github.com/me)
+[github profile](https://github.com/github)
 
 #### Email
-<hi
+<me@gmail.com
 

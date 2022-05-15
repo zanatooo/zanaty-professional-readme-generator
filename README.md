@@ -10,11 +10,9 @@ The application will be invoked by using the following command:
 
 node index.js
 
-link to a walkthrough video that demonstrates its functionality:
-comming soon 
+[link to a walkthrough video that demonstrates its functionality:](https://watch.screencastify.com/v/jtQQto9ju10n8rFrg92q)
 
-
-
+[A sample README.md file for a project repository generated using my application:](./OUTPUT.MD)
 User Story
 AS A developer
 I WANT a README generator
